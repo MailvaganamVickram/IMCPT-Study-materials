@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="LoginCheck" verbose="1" >
+    <test name="testNg.Annotations" >
+        <classes>
+            <class name="testNg.Annotations.TestNGAnnotationstest2" />
+            <class name="testNg.Annotations.TestNGAnnotationstest3" />
+            <class name="testNg.Annotations.TestNGAnnotationstest4" />
+            <class name="testNg.Annotations.TestNGAnnotationtest5" />
+
+        </classes>
+    </test>
+
+</suite>
+
+
+
+
+

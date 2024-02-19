@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="ArithmeticTest" verbose="1" >
+    <test name="simple.java calculator.ArithmeticTest" >
+        <groups>
+            <run>
+                <include name="Positive"/>
+                <include name="Negative"/>
+                <include name="Zero"/>
+
+
+            </run>
+        </groups>
+        <classes>
+            <class name="simple.javacalculator.ArithemeticTest" />
+
+        </classes>
+    </test>
+
+
+</suite>
